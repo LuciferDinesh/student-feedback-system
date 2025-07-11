@@ -2,6 +2,23 @@
 
 A lightweight, completely dynamic web application for collecting course end survey feedback. Built with Next.js, TypeScript, and Google Sheets integration - **NO PREDEFINED DATA**.
 
+## 🌐 GitHub Codespaces Quick Start
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/LuciferDinesh/student-feedback-system)
+
+**One-click setup in the cloud!** This repository is fully configured for GitHub Codespaces with:
+- ✅ Pre-installed Node.js 20
+- ✅ Automatic dependency installation
+- ✅ Auto-forwarded port 3000
+- ✅ VS Code extensions for TypeScript and Tailwind CSS
+- ✅ Development server auto-start
+
+### Using Codespaces:
+1. Click the "Open in GitHub Codespaces" badge above
+2. Wait for the environment to set up (2-3 minutes)
+3. Configure your `.env.local` with Google Sheets credentials
+4. The development server starts automatically at `localhost:3000`
+
 ## ✨ Key Features
 
 - 📱 **Mobile-first responsive design**
