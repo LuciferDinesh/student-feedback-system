@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 // SEO metadata configuration
 export const metadata: Metadata = {
-  title: "Student Feedback System - Google Sheets Admin",
+  title: "Course End Survey - Google Sheets Admin",
   description: "Rate your teachers and help improve education quality. Admin configured via Google Sheets.",
 };
 

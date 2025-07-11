@@ -1,6 +1,6 @@
-﻿# Student Feedback System
+﻿# Course End Survey
 
-A lightweight, completely dynamic web application for collecting student feedback. Built with Next.js, TypeScript, and Google Sheets integration - **NO PREDEFINED DATA**.
+A lightweight, completely dynamic web application for collecting course end survey feedback. Built with Next.js, TypeScript, and Google Sheets integration - **NO PREDEFINED DATA**.
 
 ## ✨ Key Features
 

@@ -45,6 +45,7 @@ export interface EnhancedFeedbackData {
   branch: string;
   year: string;
   section: string;
+  registrationNumber: string;
   subject: string;
   teacher: string;
   responses: { [questionId: string]: string | number | boolean }; // Dynamic responses to questions

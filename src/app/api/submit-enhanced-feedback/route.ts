@@ -115,6 +115,7 @@ async function processSheetFeedback(
   // Create dynamic headers
   const headers = [
     'Timestamp',
+    'Registration Number',
     'Branch',
     'Year', 
     'Section',
@@ -158,6 +159,7 @@ async function processSheetFeedback(
   const rows = feedbackGroup.map(feedback => {
     const row = [
       feedback.timestamp || new Date().toISOString(),
+      feedback.registrationNumber || '',
       feedback.branch,
       feedback.year,
       feedback.section,

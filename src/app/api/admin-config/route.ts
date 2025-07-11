@@ -30,6 +30,18 @@ export async function GET(request: NextRequest) {
     const year = searchParams.get('year');
     const section = searchParams.get('section');
 
+    // Validate environment variables
+    const clientEmail = process.env.GOOGLE_CLIENT_EMAIL;
+    const privateKey = process.env.GOOGLE_PRIVATE_KEY?.replace(/\\n/g, '\n');
+    const spreadsheetId = process.env.GOOGLE_SPREADSHEET_ID;
+
+    if (!clientEmail || !privateKey || !spreadsheetId) {
+      console.error('Missing Google Sheets environment variables');
+      return NextResponse.json({ 
+        error: 'Google Sheets configuration error: Missing environment variables' 
+      }, { status: 500 });
+    }
+
     // Validate required parameters
     if (!branch || !year || !section) {
       return NextResponse.json({ 
