@@ -1,0 +1,16 @@
+{
+  "name": "student-feedback-system",
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "GOOGLE_CLIENT_EMAIL": "@google_client_email",
+    "GOOGLE_PRIVATE_KEY": "@google_private_key", 
+    "GOOGLE_SPREADSHEET_ID": "@google_spreadsheet_id",
+    "NEXT_PUBLIC_APP_URL": "@next_public_app_url"
+  }
+}
